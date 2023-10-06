@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=shape_area_calculator
+CMAKE_PROJECT_NAME:STATIC=bigger_area_calculator
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -214,6 +214,18 @@ Project_BINARY_DIR:STATIC=/class/classes/cchua042/lab-01-setting-up-your-environ
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon
+
+//Value Computed by CMake
+area_calculator_BINARY_DIR:STATIC=/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon
+
+//Value Computed by CMake
+area_calculator_SOURCE_DIR:STATIC=/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon
+
+//Value Computed by CMake
+bigger_area_calculator_BINARY_DIR:STATIC=/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon
+
+//Value Computed by CMake
+bigger_area_calculator_SOURCE_DIR:STATIC=/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon
 
 //Value Computed by CMake
 shape_area_calculator_BINARY_DIR:STATIC=/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon

@@ -129,12 +129,50 @@ shape_area_calculator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shape_area_calculator.dir/build.make CMakeFiles/shape_area_calculator.dir/build
 .PHONY : shape_area_calculator/fast
 
+#=============================================================================
+# Target rules for targets named bigger_area_calculator
+
+# Build rule for target.
+bigger_area_calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bigger_area_calculator
+.PHONY : bigger_area_calculator
+
+# fast build rule for target.
+bigger_area_calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bigger_area_calculator.dir/build.make CMakeFiles/bigger_area_calculator.dir/build
+.PHONY : bigger_area_calculator/fast
+
+main1.o: main1.cpp.o
+.PHONY : main1.o
+
+# target to build an object file
+main1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bigger_area_calculator.dir/build.make CMakeFiles/bigger_area_calculator.dir/main1.cpp.o
+.PHONY : main1.cpp.o
+
+main1.i: main1.cpp.i
+.PHONY : main1.i
+
+# target to preprocess a source file
+main1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bigger_area_calculator.dir/build.make CMakeFiles/bigger_area_calculator.dir/main1.cpp.i
+.PHONY : main1.cpp.i
+
+main1.s: main1.cpp.s
+.PHONY : main1.s
+
+# target to generate assembly for a file
+main1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bigger_area_calculator.dir/build.make CMakeFiles/bigger_area_calculator.dir/main1.cpp.s
+.PHONY : main1.cpp.s
+
 rectangle.o: rectangle.cpp.o
 .PHONY : rectangle.o
 
 # target to build an object file
 rectangle.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shape_area_calculator.dir/build.make CMakeFiles/shape_area_calculator.dir/rectangle.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bigger_area_calculator.dir/build.make CMakeFiles/bigger_area_calculator.dir/rectangle.cpp.o
 .PHONY : rectangle.cpp.o
 
 rectangle.i: rectangle.cpp.i
@@ -143,6 +181,7 @@ rectangle.i: rectangle.cpp.i
 # target to preprocess a source file
 rectangle.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shape_area_calculator.dir/build.make CMakeFiles/shape_area_calculator.dir/rectangle.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bigger_area_calculator.dir/build.make CMakeFiles/bigger_area_calculator.dir/rectangle.cpp.i
 .PHONY : rectangle.cpp.i
 
 rectangle.s: rectangle.cpp.s
@@ -151,6 +190,7 @@ rectangle.s: rectangle.cpp.s
 # target to generate assembly for a file
 rectangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shape_area_calculator.dir/build.make CMakeFiles/shape_area_calculator.dir/rectangle.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bigger_area_calculator.dir/build.make CMakeFiles/bigger_area_calculator.dir/rectangle.cpp.s
 .PHONY : rectangle.cpp.s
 
 shape_main.o: shape_main.cpp.o
@@ -209,7 +249,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bigger_area_calculator"
 	@echo "... shape_area_calculator"
+	@echo "... main1.o"
+	@echo "... main1.i"
+	@echo "... main1.s"
 	@echo "... rectangle.o"
 	@echo "... rectangle.i"
 	@echo "... rectangle.s"

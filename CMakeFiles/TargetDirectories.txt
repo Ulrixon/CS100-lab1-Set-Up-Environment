@@ -1,3 +1,4 @@
 /class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/CMakeFiles/rebuild_cache.dir
-/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/CMakeFiles/shape_area_calculator.dir
 /class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/CMakeFiles/edit_cache.dir
+/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/CMakeFiles/shape_area_calculator.dir
+/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/CMakeFiles/bigger_area_calculator.dir

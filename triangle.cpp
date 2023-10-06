@@ -1,4 +1,4 @@
-#include "/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/triangle.hpp"
+#include "triangle.hpp"
 
 triangle::triangle(int w, int h)
 {

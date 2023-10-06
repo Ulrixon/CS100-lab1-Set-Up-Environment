@@ -1,4 +1,5 @@
-
+#ifndef triangle_H // include guard
+#define triangle_H
 
 class triangle
 {
@@ -12,3 +13,4 @@ public:
     void set_height(int h);
     double area();
 };
+#endif

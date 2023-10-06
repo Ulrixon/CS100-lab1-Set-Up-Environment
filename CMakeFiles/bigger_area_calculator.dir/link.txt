@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/bigger_area_calculator.dir/main1.cpp.o CMakeFiles/bigger_area_calculator.dir/rectangle.cpp.o -o bigger_area_calculator 

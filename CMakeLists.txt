@@ -7,3 +7,10 @@ ADD_EXECUTABLE(shape_area_calculator
     rectangle.cpp
     triangle.cpp
 )
+
+project(bigger_area_calculator)
+
+ADD_EXECUTABLE(bigger_area_calculator
+    main1.cpp
+    rectangle.cpp
+)

@@ -1,4 +1,5 @@
-
+#ifndef Rectangle_H // include guard
+#define Rectangle_H
 
 class Rectangle
 {
@@ -12,3 +13,4 @@ public:
     void set_height(int h);
     int area();
 };
+#endif

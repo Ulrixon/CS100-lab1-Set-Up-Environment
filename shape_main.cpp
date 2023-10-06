@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include </class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/triangle.hpp>
-#include </class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/rectangle.hpp>
+#include "triangle.hpp"
+#include "rectangle.hpp"
 using namespace std;
 
 int main()
@@ -10,7 +10,7 @@ int main()
     int high;
     int wide;
     cout << "Please choose triangle or rectangle:" << endl;
-    getline(cin, shape);
+    cin >> shape;
     // cout << shape;
     if (!std::cin)
     {
@@ -22,8 +22,7 @@ int main()
     }
     while (!(shape == "triangle" || shape == "rectangle"))
     {
-        cout << "Please enter triangle or rectangle:" << endl;
-        cin >> shape;
+
         if (!std::cin)
         {
             if (std::cin.eof())
@@ -32,20 +31,27 @@ int main()
             else
                 std::cout << "other failure\n";
         }
+        cin.clear();
+        cin.ignore();
+        cout << "Please enter triangle or rectangle:" << endl;
+        cin >> shape;
     }
 
     if (shape == "triangle")
     {
         cout << "Please input height(integer):" << endl;
         cin >> high;
-        while (!std::cin || high < 0) // check if input fail
+        while ((!std::cin) || high < 0) // check if input fail
         {
             if (std::cin.eof())
                 std::cout << "EOF\n"
                           << endl;
             else
                 std::cout << "other failure\n";
+
             cout << "Please input height(integer):" << endl;
+            cin.clear();
+            cin.ignore();
             cin >> high;
         }
         cout << "Please input base(integer):" << endl;
@@ -58,6 +64,8 @@ int main()
             else
                 std::cout << "other failure\n";
             cout << "Please input base(integer):" << endl;
+            cin.clear();
+            cin.ignore();
             cin >> wide;
         }
         triangle *tria = new triangle(high, wide);
@@ -77,6 +85,8 @@ int main()
             else
                 std::cout << "other failure\n";
             cout << "Please input height(integer):" << endl;
+            cin.clear();
+            cin.ignore();
             cin >> high;
         }
         cout << "Please input width(integer):" << endl;
@@ -89,6 +99,8 @@ int main()
             else
                 std::cout << "other failure\n";
             cout << "Please input width(integer):" << endl;
+            cin.clear();
+            cin.ignore();
             cin >> wide;
         }
         Rectangle *rect = new Rectangle(high, wide);

@@ -44,4 +44,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/shape_area_calculator.dir/DependInfo.cmake"
+  "CMakeFiles/bigger_area_calculator.dir/DependInfo.cmake"
   )
