@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/shape_area_calculator.dir/shape_main.cpp.o CMakeFiles/shape_area_calculator.dir/rectangle.cpp.o CMakeFiles/shape_area_calculator.dir/triangle.cpp.o -o shape_area_calculator 

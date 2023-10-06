@@ -1,5 +1,9 @@
-#include "rectangle.hpp"
-
+#include "/class/classes/cchua042/lab-01-setting-up-your-environment-Ulrixon/rectangle.hpp"
+Rectangle::Rectangle(int w, int h)
+{
+    this->width = w;
+    this->height = h;
+}
 void Rectangle::set_width(int w)
 {
     this->width = w;
